@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(0, 30, 61);
+}
+#deepblue{
+  background-color: rgb(0, 30, 61);
+}
+#black{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#white{
+  background-color: white;
+  text-align: center;
+}
+#gold{
+  background-color: #ffcc00;
+  text-align: center;
+}
+#gold-white{
+  background-color: #ffcc00;
+  text-align: center;
+  color: white;
+}
+#purple{
+  background: #4d0099;
+  color: white;
+}
+#green{
+  background-color:  #006600;
+  color: white;
+}
+#full{
+  width: 100%;
+}
+#tree{
+  background-image: url('images/1.jpg');
+  background-size: 100% 100%;
+  background-color: #001a33;
+  color: white;
+  padding: 30px;
+}
+#grey{
+  background-color: #404040;
+  tranparency: 50%;
+}
+.card{
+  padding:25px;
+}
+.rounded{
+  border-radius: 10px;
+}
+#left{
+  text-align: left;
+}
+#left-p{
+  text-align: left;
+  padding-top: 25px;
+}
+#padd{
+  padding: 25px;
+}
+#grey-white{
+  background-color: #404040;
+  color: white;
+  padding: 5px;
+}
