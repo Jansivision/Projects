@@ -1,9 +1,14 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(0, 30, 61);
+  background-color: #00002E;
 }
 #deepblue{
-  background-color: rgb(0, 30, 61);
+  background-color: #00002E;
+}
+#deepbluepadd{
+  background-color: #00002E;
+  padding: 25px;
+  color: white;
 }
 #black{
   text-align: center;
@@ -11,24 +16,24 @@ body {
   background-color: black;
 }
 #white{
-  background-color: white;
+  background-color: #e6e6e6;
   text-align: center;
 }
 #gold{
-  background-color: #ffcc00;
+  background-color: #a19c12;
   text-align: center;
 }
 #gold-white{
-  background-color: #ffcc00;
+  background-color: #a19c12;
   text-align: center;
   color: white;
 }
 #purple{
-  background: #4d0099;
+  background: #4D3EAC;
   color: white;
 }
 #green{
-  background-color:  #006600;
+  background-color:  #2A3B1E;
   color: white;
 }
 #full{
@@ -43,7 +48,10 @@ body {
 }
 #grey{
   background-color: #404040;
-  tranparency: 50%;
+}
+#grey-trans{
+  opacity: 0.7;
+  background-color: #404040;
 }
 .card{
   padding:25px;
@@ -65,4 +73,8 @@ body {
   background-color: #404040;
   color: white;
   padding: 5px;
+}
+#item{
+  align-items: center;
+  align: center;
 }

@@ -32,7 +32,7 @@ class Navbar extends Component{
                     </ul>
 					<ul class="nav navbar-nav navbar-right">
       <li><a href="Signup">Sign Up</a></li>
-      <li><a href="#"> Login</a></li>
+      <li><a href="Login"> Login</a></li>
     </ul>
                 </div>
 								<hr id="full"></hr>
