@@ -29,7 +29,7 @@ class Navbar extends Component{
         <li><a href="">PRICING</a></li>
         <li><a href="/contact">CONTACT</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right"><li><a href="#contact">SIGN UP</a></li></ul>
+      <ul class="nav navbar-nav navbar-right"><li><a href="/signup">SIGN UP</a></li></ul>
     </div>
   </div>
 </nav>

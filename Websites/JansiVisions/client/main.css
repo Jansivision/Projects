@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
-  background-color: #00002E;
+  background-color: #001a33;
+  text-align: center;
 }
 #deepblue{
   background-color: #00002E;
@@ -16,8 +17,9 @@ body {
   background-color: black;
 }
 #white{
-  background-color: #e6e6e6;
+  background-color: ;
   text-align: center;
+  color: white;
 }
 #gold{
   background-color: #a19c12;
@@ -39,12 +41,13 @@ body {
 #full{
   width: 100%;
 }
-#tree{
-  background-image: url('images/1.jpg');
-  background-size: 100% 100%;
-  background-color: #001a33;
-  color: white;
-  padding: 30px;
+.parallax {
+  background-image: url("images/company.png");
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #grey{
   background-color: #404040;
@@ -52,9 +55,13 @@ body {
 #grey-trans{
   opacity: 0.7;
   background-color: #404040;
+  margin-top: 40px;
+  color: white;
 }
 .card{
-  padding:25px;
+  padding:8px;
+  width:100%;
+  margin-bottom: 20px;
 }
 .rounded{
   border-radius: 10px;
@@ -70,13 +77,24 @@ body {
   padding: 25px;
 } */
 #grey-white{
-  background-color: #404040;
+  background-image: url("images/greyback.png");
   color: white;
   padding: 5px;
+  height: 300px;
 }
 #item{
   align-items: center;
   align: center;
+  width: 100%;
+}
+.parallax2{
+  background-image: url("images/greyback.png");
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .navbar {
