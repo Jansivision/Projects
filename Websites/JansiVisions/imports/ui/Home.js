@@ -24,19 +24,35 @@ class Home extends Component {
 						</ol>
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-							  <img src="images/beach-house.jpeg" width="500" height="180" alt="Moriah Gardens"/>
+							<div class="logo text-center">
+							<a class="animated" href="moriah-gardens.com">
+							<img src="images/moriah-gardens.png" width="100%" height="350" alt="Syben"/>
+							</a>
+							</div>
 							</div>
 
 							<div class="item">
-							  <img src="images/syben.jpg" width="500" height="180" alt="Chania"/>
+								<div class="logo text-center">
+								<a class="animated" href="Syben.com">
+							  <img src="images/Syben5.png" width="100%" height="350" alt="Syben"/>
+								</a>
+								</div>
 							</div>
 
 							<div class="item">
-							  <img src="" alt="Syben"/>
+							<div class="logo text-center">
+							<a class="animated" href="moriah-gardens.com">
+							<img src="images/moriah-gardens.png" width="100%" height="350" alt="Syben"/>
+							</a>
+							</div>
 							</div>
 
 							<div class="item">
-							  <img src="" alt="Flower"/>
+								<div class="logo text-center">
+									<a class="animated" href="Syben.com">
+										<img src="images/Syben5.png" width="100%" height="350" alt="Syben"/>
+									</a>
+								</div>
 							</div>
 						  </div>
 							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -49,7 +65,7 @@ class Home extends Component {
 							</a>
 					</div>
 				</div>
-				<h3 id="gold">You could be Next</h3>
+				<h3 id=""></h3>
 				<div class="row" id="white">
 					<div class="col-md-12">
 					<h3>Whats New.</h3><p>News on our latest developments and work</p>
@@ -58,29 +74,33 @@ class Home extends Component {
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card rounded" id="gold-white">
-							<div class="card-body"><h5>Card title</h5><p>loren speach</p><a href="#" class="btn btn-primary">Go</a></div>
+							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building improvements on moriah gardens webiste. This site will include an online platform to allow you to purchase your dream home from the luxarious yet affortable homes in Kitwe.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="green">
-							<div class="card-body"><h5>Card title</h5><p>loren speach</p><a href="#" class="btn btn-primary">Go</a></div>
+							<div class="card-body"><h4>JANSI UPGRADE</h4><p>Working on adding new features to our website.</p><p>These features include Online Library for primary school and an online store for all you could find at rediculosly low prices.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="purple">
-							<div class="card-body"><h5>Card title</h5><p>loren speach</p><a href="#" class="btn btn-primary">Go</a></div>
+							<div class="card-body"><h4>INVESTMENT</h4><p>We are opening a portal to help locals find investment opportunities and help manage Investment risks. This will help people of all ages find both financial knowledge and assistance.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 				</div>
-				<p>Say something cool</p>
-				<div class="row">
-					<div class="col-md-12" id="tree">
-						<div class="row">
-							<div class="col-md-8 col-md-push-4 rounded" id="grey-trans"><h4>Who We Are?</h4><p>A combination of the most talented developers and highly motivated enterprenuers.</p></div>
+				<p>
+
+						</p>
+						<div class="parallax">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-8 col-md-push-4 rounded" id="grey-trans"><h4>Who We Are?</h4><p>A combination of the most talented developers and highly motivated enterprenuers looking to Improve both I.T services and Financial stability of the people at large.</p><p></p></div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<p id="left-p">Our Goal</p><h2 id="left">Company Mission</h2><p id="left-p">Speech for something</p>
+				<p id="left-p">Our Goal</p><h2 id="left">Company Mission</h2><p id="left-p"><li>Contribute to Technological Development worldwide</li><li>Provide High Standard Information center for the betterment of the future.</li><li>Provide affordable goods and delivery services.</li><li>Offer accessible software installations and repairs for a wide varierty of devices</li><li></li><li></li><li></li><li></li></p>
 				<div class="row">
 					<div class="col-md-6"></div>
 					<div class="col-md-6"></div>
