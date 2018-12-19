@@ -7,8 +7,9 @@ class Home extends Component {
 	return (
 			<div class="container-fluid" id="white">
 				<div class="row" id="black">
+					<div class="col-md-12"><h1>JANSI VISIONS</h1></div>
 					<div class="col-md-12">
-						<img src="images/aw.png" width="280" height="180"/><p>See the future, Create the future</p><p>Become the future</p>
+						<img src="images/visions.png" width="380" height="180"/><p>See the future, Create the future</p><p>Become the future</p>
 					</div>
 				</div>
 				<div class="row" id="padd" id="deepbluepadd">
@@ -88,19 +89,16 @@ class Home extends Component {
 						</div>
 					</div>
 				</div>
-				<p>
-
-						</p>
 						<div class="parallax">
 							<div class="row">
 								<div class="col-md-12">
 									<div class="row">
-										<div class="col-md-8 col-md-push-4 rounded" id="grey-trans"><h4>Who We Are?</h4><p>A combination of the most talented developers and highly motivated enterprenuers looking to Improve both I.T services and Financial stability of the people at large.</p><p></p></div>
+										<div class="col-md-8 col-md-push-3 rounded" id="grey-trans"><h4>Who We Are?</h4><p>A combination of the most talented developers and highly motivated enterprenuers looking to Improve both I.T services and Financial stability of the people at large.</p><p></p></div>
 									</div>
 								</div>
 							</div>
 						</div>
-				<p id="left-p">Our Goal</p><h2 id="left">Company Mission</h2><p id="left-p"><li>Contribute to Technological Development worldwide</li><li>Provide High Standard Information center for the betterment of the future.</li><li>Provide affordable goods and delivery services.</li><li>Offer accessible software installations and repairs for a wide varierty of devices</li><li></li><li></li><li></li><li></li></p>
+				<p id="left-p">Our Goal</p><h2 id="left">Company Mission</h2><p id="left-p"><li>Contribute to Technological Development worldwide.</li><li>Provide High Standard Information center for the betterment of the future.</li><li>Provide affordable goods and delivery services.</li><li>Offer accessible software installations and repairs for a wide varierty of devices.</li><li></li><li></li><li></li><li></li></p>
 				<div class="row">
 					<div class="col-md-6"></div>
 					<div class="col-md-6"></div>
@@ -118,11 +116,10 @@ class Home extends Component {
 					<div class="col-md-6"></div>
 					<div class="col-md-6"></div>
 				</div>
-				<div class="row" id="grey-white">
-					<div class="col-md-12"><p>Statistical Data</p></div>
-				</div>
-				<div class="row">
-					<div class="col-md-12" id="black"><Footer/></div>
+				<div class="parallax2">
+					<div class="row" id="">
+						<div class="col-md-12"><p>Statistical Data</p></div>
+						</div>
 				</div>
 			</div>
 

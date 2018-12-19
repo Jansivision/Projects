@@ -58,8 +58,9 @@ body {
   color: white;
 }
 .card{
-  padding:10px;
+  padding:8px;
   width:100%;
+  margin-bottom: 20px;
 }
 .rounded{
   border-radius: 10px;
@@ -75,12 +76,22 @@ body {
   padding: 25px;
 }
 #grey-white{
-  background-color: #404040;
+  background-image: url("images/greyback.png");
   color: white;
   padding: 5px;
+  height: 300px;
 }
 #item{
   align-items: center;
   align: center;
   width: 100%;
+}
+.parallax2{
+  background-image: url("images/greyback.png");
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
