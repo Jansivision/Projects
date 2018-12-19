@@ -5,14 +5,15 @@ class Home extends Component {
 
 	render(){
 	return (
+		<div>	<div class="jumbotron text-center">
+		<img src="images/aw.png" width="280" height="180"/>
+		<h1>Jansi Visions</h1>
+		<p>See the future, Create the future</p><p>Become the future</p>
+</div>
 			<div class="container-fluid" id="white">
-				<div class="row" id="black">
-					<div class="col-md-12">
-						<img src="images/aw.png" width="280" height="180"/><p>See the future, Create the future</p><p>Become the future</p>
-					</div>
-				</div>
+		
 				<div class="row" id="padd" id="deepbluepadd">
-					<div class="col-md-12"><h3>Websites by Jansi Visions</h3></div>
+					<div class="col-md-12"><h3>What we have created</h3></div>
 				</div>
 				<div class="row">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -105,7 +106,7 @@ class Home extends Component {
 					<div class="col-md-12" id="black"><Footer/></div>
 				</div>
 			</div>
-
+			</div>
 
 
 

@@ -66,9 +66,9 @@ body {
   text-align: left;
   padding-top: 25px;
 }
-#padd{
+/* #padd{
   padding: 25px;
-}
+} */
 #grey-white{
   background-color: #404040;
   color: white;
@@ -77,4 +77,42 @@ body {
 #item{
   align-items: center;
   align: center;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #001a33;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #001a33 !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+#footer{
+  padding: 50px 25px;
+  text-align: center;
+  background-color: #001a33;
+  color:white;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-color: black;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
 }
