@@ -61,10 +61,14 @@ body {
 .card{
   padding:8px;
   width:100%;
+  height: 200px;
   margin-bottom: 20px;
 }
 .rounded{
   border-radius: 10px;
+}
+.curved{
+  border-radius: 30px;
 }
 #left{
   text-align: left;
@@ -73,9 +77,9 @@ body {
   text-align: left;
   padding-top: 25px;
 }
-/* #padd{
-  padding: 25px;
-} */
+#magin{
+  margin-top: 23px;
+}
 #grey-white{
   background-image: url("images/greyback.png");
   color: white;
@@ -89,7 +93,7 @@ body {
 }
 .parallax2{
   background-image: url("images/greyback.png");
-  height: 200px;
+  height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,11 +130,72 @@ body {
   background-color: #001a33;
   color:white;
 }
-
 .jumbotron {
   background-size: cover;
   background-color: black;
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
+}
+#fol{
+  background-image: url(images/fol.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#hardware{
+  background-image: url(images/hardware3.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#web{
+  background-image: url(images/web2.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#delivery{
+  background-image: url(images/delivery.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+@media screen and (max-width: 1136px) {
+
+  .parallax{
+    background-attachment: inherit;
+  }
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+#blacktext{
+  color: black;
 }
