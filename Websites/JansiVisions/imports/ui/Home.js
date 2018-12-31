@@ -74,17 +74,17 @@ class Home extends Component {
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card rounded" id="gold-white">
-							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building improvements on moriah gardens webiste. This site will include an online platform to allow you to purchase your dream home from the luxarious yet affortable homes in Kitwe.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building moriah gardens webiste. </p><p>This is a site for the housing development in the Kitwe ganaton area by Stawardship Invest Limited.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="green">
-							<div class="card-body"><h4>JANSI UPGRADE</h4><p>Working on adding new features to our website.</p><p>These features include Online Library for primary school and an online store for all you could find at rediculosly low prices.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>UPGRADES</h4><p>Rolling out mobile updates</p><p>Currently adding more devices to available upgrade list.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="purple">
-							<div class="card-body"><h4>INVESTMENT</h4><p>We are opening a portal to help locals find investment opportunities and help manage Investment risks. This will help people of all ages find both financial knowledge and assistance.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>RESEARCH</h4><p>Working on emplimenting a new and faster web framework.</p><p>This is a fast and more stable platform for websites.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 				</div>
@@ -100,16 +100,14 @@ class Home extends Component {
 						</div>
 				<h4 id="left-p">Our Goal</h4><h2 id="left">Company Mission</h2>
 				<div class="row">
-					<div class="col-md-6"><p id="left-p"><li>Contribute to Technological Development worldwide.</li><li>Provide High Standard Information center for the betterment of the future.</li><li>Provide affordable goods and delivery services.</li><li>Offer accessible software installations and repairs for a wide varierty of devices.</li><li></li><li></li><li></li><li></li></p></div>
+					<div class="col-md-6"><p id="left-p"><li>Contribute to Technological Development worldwide.</li><li>Provide High Standard Information center for the betterment of the future.</li><li>Provide affordable goods and delivery services.</li><li>Offer accessible software installations and repairs for a wide varierty of devices.</li></p></div>
 					<div class="col-md-6"></div>
 				</div>
 				<p>Best Services</p>
 				<h2>Services We Provide</h2>
 				<div class="row">
-					<div class="col-md-3" id="web"><h3>Web design</h3><p>We design and develop responsive websites for various purposes.</p><p>These include;</p><li>Personal Blogs</li><li>Advertisement</li></div>
-					<div class="col-md-3" id="hardware"><h2>Hardware & Software Repairs</h2><p>We provide a wide range of device repairs for Computers, Smart phones and Tablets.</p><p>Custom updates for Android devices are also available</p></div>
-					<div class="col-md-3" id="fol"><h2>Free Online Library</h2><p>We believe the way to succes begins with knowledge. Henceforeth,we have dedicated part of our time and effort to bring about a free online library that covers as much material as we can get our hands on for the primary school section.</p></div>
-					<div class="col-md-3" id="delivery"><h2>Supplies & Deliveries</h2><p>In addition, we also provide general supply and delivery of goods. Visit our store to see whats in order.</p></div>
+					<div class="col-md-6" id="web"><div class="greyback curved"><h3>Web design</h3><p>We design and develop responsive websites for various purposes.</p><p>These include;</p><li>Personal Blogs</li><li>Advertisement</li><li>Marketing</li></div></div>
+					<div class="col-md-6" id="hardware"><div class="greyback curved"><h2>Software Repairs</h2><p>We provide a wide range of device repairs;</p><li> Computers</li><li> Smart phones</li><li>Tablet</li><p>Official and Custom updates for Android devices available</p></div></div>
 				</div>
 				<p id="magin">Feedback</p>
 				<h2>What our clients say</h2>
@@ -149,27 +147,21 @@ class Home extends Component {
 
 	</div>
 		<div class="row text-center" id="blacktext">
-	        <div class="col-sm-3">
+	        <div class="col-sm-4">
 	        <div class="counter" id="green">
       <i class="fa fa-code fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
        <p class="count-text ">Visits</p>
     </div>
 	        </div>
-              <div class="col-sm-3">
-               <div class="counter" id="green">
-      <i class="fa fa-coffee fa-2x"></i>
-      <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
-      <p class="count-text ">Accounts</p>
-    </div>
-              </div>
-              <div class="col-sm-3">
+
+              <div class="col-sm-4">
                   <div class="counter" id="green">
       <i class="fa fa-lightbulb-o fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
       <p class="count-text ">Online</p>
     </div></div>
-              <div class="col-sm-3">
+		<div class="col-sm-4">
               <div class="counter" id="green">
       <i class="fa fa-bug fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>

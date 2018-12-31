@@ -58,6 +58,12 @@ body {
   margin-top: 40px;
   color: white;
 }
+.greyback{
+  opacity: 0.7;
+  background-color: #404040;
+  color: white;
+}
+
 .card{
   padding:8px;
   width:100%;
@@ -166,6 +172,9 @@ body {
   .parallax{
     background-attachment: inherit;
   }
+  .parallax2{
+    background-attachment: inherit;
+  }
 }
 .counter {
     background-color:#f5f5f5;
@@ -198,4 +207,19 @@ body {
 }
 #blacktext{
   color: black;
+}
+.head{
+  padding: 30px;
+  background-color: white;
+  color: #001a33;
+}
+#document{
+  text-align: justify;
+  margin-left: 20px;
+  line-height: 25px;
+  font-family: times;
+}
+#doc-center{
+  text-align: center;
+  font-family: times;
 }

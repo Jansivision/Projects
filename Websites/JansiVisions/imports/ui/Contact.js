@@ -7,15 +7,10 @@ class Contact extends Component {
 
 	render(){
 		return (
-	
-	
 		<div>
-			<h2>Contact Us</h2>
-					 		
-			
-			
+			<h2 class="head">Contact Us</h2>	
 		</div>
-		
+
 		);
 
 	}
