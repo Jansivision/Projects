@@ -13,7 +13,7 @@ class About extends Component{
 					<div class="col-sm-4">
 						<img src="images/Syben5.png" width="100%" height="100" alt="Jimmy Kamanga"/>
 						<h2>MANAGING DIRECTOR</h2>
-						<h3>Jimmy kamanga</h3>
+						<h3>Jimmy Kamanga</h3>
 						<p>Contact Details:</p>
 						<p>Cell phone number: 0977 396 223</p>
 						<p>Email Address : jimmykamanga@gmail.com</p>
@@ -23,8 +23,8 @@ class About extends Component{
 						<h2>PROJECT MANAGER</h2>
 						<h3>Dickens Njobvu</h3>
 							<p>Contact Details:</p>
-							<p>Cell phone number: 0977 396 223</p>
-							<p>Email Address : jimmykamanga@gmail.com</p>
+							<p>Cell phone number: 0976 824 728</p>
+							<p>Email Address : </p>
 					</div>
 					<div class="col-sm-4">
 						<img src="images/Syben5.png" width="100%" height="100" alt="Alvin Mwewa"/>

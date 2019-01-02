@@ -74,17 +74,17 @@ class Home extends Component {
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card rounded" id="gold-white">
-							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building moriah gardens webiste. </p><p>This is a site for the housing development in the Kitwe ganaton area by Stawardship Invest Limited.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building moriah gardens webiste. </p><p>This is a site for the housing development in the Kitwe ganaton area by Stawardship Invest Limited.</p><a href="/developments" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="green">
-							<div class="card-body"><h4>UPGRADES</h4><p>Rolling out mobile updates</p><p>Currently adding more devices to available upgrade list.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>UPGRADES</h4><p>Rolling out mobile updates</p><p>Currently adding more devices to available upgrade list.</p><a href="/upgrades" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card rounded" id="purple">
-							<div class="card-body"><h4>RESEARCH</h4><p>Working on emplimenting a new and faster web framework.</p><p>This is a fast and more stable platform for websites.</p><a href="#" class="btn btn-primary">Learn more....</a></div>
+							<div class="card-body"><h4>RESEARCH</h4><p>Working on emplimenting a new and faster web framework.</p><p>This is a fast and more stable platform for websites.</p><a href="/research" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 				</div>

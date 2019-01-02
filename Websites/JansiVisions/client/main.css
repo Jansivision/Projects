@@ -216,10 +216,37 @@ body {
 #document{
   text-align: justify;
   margin-left: 20px;
-  line-height: 25px;
   font-family: times;
 }
 #doc-center{
   text-align: center;
   font-family: times;
+  font-size: 50px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+#docbody{
+  font-size: 18px;
+}
+#bodyhead-u{
+  text-decoration: underline;
+  font-size: 34px;
+}
+#bodyhead-h{
+  font-size: 34px;
+}
+#bodyhead-i{
+  font-style: italic;
+  font-size: 34px;
+}
+#bodyhead{
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 34px;
+}
+#in{
+  margin-left: 50px;
+}
+li{
+  text-indent: 30px;
 }

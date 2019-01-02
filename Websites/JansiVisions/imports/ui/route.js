@@ -4,6 +4,9 @@ import About from './About.js';
 import Contact from './Contact.js';
 import Services from './Services.js';
 import Documentation from './Documentation.js';
+import Developments from './Developments.js';
+import Upgrades from './Upgrades.js';
+import Research from './Research.js';
 import Signup from './accounts/Signup.js';
 import Login from './accounts/Login.js';
 import Notfound from './Notfound.js';
@@ -41,6 +44,24 @@ FlowRouter.route('/documentation',{
 	name: 'Documentation',
 	action: ()=>{
 		mount(Documentation, {})
+	}
+});
+FlowRouter.route('/developments',{
+	name: 'Developments',
+	action: ()=>{
+		mount(Developments, {})
+	}
+});
+FlowRouter.route('/upgrades',{
+	name: 'Upgrades',
+	action: ()=>{
+		mount(Upgrades, {})
+	}
+});
+FlowRouter.route('/research',{
+	name: 'Research',
+	action: ()=>{
+		mount(Research, {})
 	}
 });
 
