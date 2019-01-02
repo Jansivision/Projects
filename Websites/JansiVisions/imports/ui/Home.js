@@ -10,11 +10,9 @@ class Home extends Component {
 		<h1>Jansi Visions</h1>
 		<p>See the future, Create the future</p><p>Become the future</p>
 </div>
-			<div class="container-fluid" id="white">
-		
-				<div class="row" id="padd" id="deepbluepadd">
-					<div class="col-md-12"><h3>What we have created</h3></div>
-				</div>
+			<div class="container-fluid">
+					<h1>What we have created</h1>
+				
 				<div class="row">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -67,7 +65,7 @@ class Home extends Component {
 					</div>
 				</div>
 				<h3 id=""></h3>
-				<div class="row" id="white">
+				<div class="row">
 					<div class="col-md-12">
 					<h3>Whats New.</h3><p>News on our latest developments and work</p>
 					</div>
