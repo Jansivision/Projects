@@ -58,13 +58,23 @@ body {
   color: white;
   padding: 90px 45px
 }
+.greyback{
+  opacity: 0.7;
+  background-color: #404040;
+  color: white;
+}
+
 .card{
   padding:8px;
   width:100%;
+  height: 200px;
   margin-bottom: 20px;
 }
 .rounded{
   border-radius: 10px;
+}
+.curved{
+  border-radius: 30px;
 }
 #left{
   text-align: left;
@@ -73,9 +83,9 @@ body {
   text-align: left;
   padding-top: 25px;
 }
-/* #padd{
-  padding: 25px;
-} */
+#magin{
+  margin-top: 23px;
+}
 #grey-white{
   background-image: url("images/greyback.png");
   color: white;
@@ -89,7 +99,7 @@ body {
 }
 .parallax2{
   background-image: url("images/greyback.png");
-  height: 200px;
+  height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +138,6 @@ body {
   background-color: #001a33;
   color:white;
 }
-
 .jumbotron {
   background-size: cover;
   background-color: black;
@@ -136,3 +145,106 @@ body {
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
 }
+#fol{
+  background-image: url(images/fol.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#hardware{
+  background-image: url(images/hardware3.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#web{
+  background-image: url(images/web2.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+#delivery{
+  background-image: url(images/delivery.png);
+  background-size: cover;
+  height: 200px;
+  color: black;
+}
+@media screen and (max-width: 1136px) {
+
+  .parallax{
+    background-attachment: inherit;
+  }
+  .parallax2{
+    background-attachment: inherit;
+  }
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+#blacktext{
+  color: black;
+}
+.head{
+  padding: 30px;
+  background-color: white;
+  color: #001a33;
+}
+#document{
+  text-align: justify;
+  margin-left: 20px;
+  line-height: 25px;
+  font-family: times;
+}
+#doc-center{
+  text-align: center;
+  font-family: times;
+}
+
+.contact-pic {
+  background-image: url("images/chair.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron {
+  background: #001a33;
+  color: #FFF;
+  border-radius: 0px;
+  }
+  .jumbotron-sm { padding-top: 24px;
+  padding-bottom: 24px; }
+  .jumbotron small {
+  color: #FFF;
+  }
+  .h1 small {
+  font-size: 24px;
+  }
+
+  
+

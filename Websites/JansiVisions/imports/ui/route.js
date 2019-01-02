@@ -2,6 +2,8 @@ import { mount } from 'react-mounter';
 import Home from './Home.js';
 import About from './About.js';
 import Contact from './Contact.js';
+import Services from './Services.js';
+import Documentation from './Documentation.js';
 import Signup from './accounts/Signup.js';
 import Login from './accounts/Login.js';
 import Notfound from './Notfound.js';
@@ -13,7 +15,7 @@ FlowRouter.route('/',{
 	}
 });
 
- 
+
 FlowRouter.route('/about',{
 	name: 'About',
 	action: ()=>{
@@ -25,6 +27,20 @@ FlowRouter.route('/contact',{
 	name: 'Contact',
 	action: ()=>{
 		mount(Contact, {})
+	}
+});
+
+FlowRouter.route('/services',{
+	name: 'Services',
+	action: ()=>{
+		mount(Services, {})
+	}
+});
+
+FlowRouter.route('/documentation',{
+	name: 'Documentation',
+	action: ()=>{
+		mount(Documentation, {})
 	}
 });
 
