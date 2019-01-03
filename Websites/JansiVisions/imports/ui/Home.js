@@ -5,14 +5,15 @@ class Home extends Component {
 
 	render(){
 	return (
-		<div>	<div class="jumbotron text-center">
+		<div>	<div class="jumbotron text-center" id="black">
 		<img src="images/aw.png" width="280" height="180"/>
 		<h1>Jansi Visions</h1>
 		<p>See the future, Create the future</p><p>Become the future</p>
 </div>
+<div class="white">
 			<div class="container-fluid">
 					<h1>What we have created</h1>
-				
+
 				<div class="row">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -69,25 +70,29 @@ class Home extends Component {
 					<div class="col-md-12">
 					<h2>What's New.</h2><h4>News on our latest developments and work</h4>
 					</div>
+					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
+			</div>
+			<div class="white">
+				<div class="row" id="magin2">
+					<div class="col-md-4" id="center">
 						<div class="card rounded" id="gold-white">
 							<div class="card-body"><h4>WEBSITE DEVELOPMENT</h4><p>Building moriah gardens webiste. </p><p>This is a site for the housing development in the Kitwe ganaton area by Stawardship Invest Limited.</p><a href="/developments" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" id="center">
 						<div class="card rounded" id="green">
 							<div class="card-body"><h4>UPGRADES</h4><p>Rolling out mobile updates</p><p>Currently adding more devices to available upgrade list.</p><a href="/upgrades" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" id="center">
 						<div class="card rounded" id="purple">
 							<div class="card-body"><h4>RESEARCH</h4><p>Working on emplimenting a new and faster web framework.</p><p>This is a fast and more stable platform for websites.</p><a href="/research" class="btn btn-primary">Learn more....</a></div>
 						</div>
 					</div>
 				</div>
-
+				</div>
+				<div Container="fluid">
 						<div class="row">
 							<div class="parallax">
 								<div class= "col-xs-12">

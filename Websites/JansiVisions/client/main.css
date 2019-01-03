@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
-  background-color:white ;
+  background-color:#001a33 ;
   text-align: center;
-  color: #001a33;
+  color: white;
 }
 #blue{
   background-color: #001a33;
@@ -17,6 +17,9 @@ body {
   color: white;
   background-color: black;
 }
+#blueword{
+  color: #001a33
+}
 
 #gold{
   background-color: #001a33;
@@ -26,14 +29,20 @@ body {
   background-color: #001a33;
   text-align: center;
   color: white;
+  margin: 10px;
+  width: auto;
 }
 #purple{
   background: #001a33;
   color: white;
+  margin: 10px;
+  width: auto;
 }
 #green{
   background-color:  #2A3B1E;
   color: white;
+  margin: 10px;
+  width: auto;
 }
 #full{
   width: 100%;
@@ -51,9 +60,9 @@ body {
   background-color: #404040;
 }
 #grey-trans{
-  
+
   background-color: #000000e6;;
-  margin-top: 15px;
+  margin-top: 50px;
   margin-right: 5px;
   color: white;
   padding: 90px 45px
@@ -86,6 +95,9 @@ body {
 #magin{
   margin-top: 23px;
 }
+#magin2{
+  padding-bottom: 40px;
+}
 #grey-white{
   background-image: url("images/greyback.png");
   color: white;
@@ -107,7 +119,6 @@ body {
   color: white;
   padding: 200px 100px
 }
-
 
 .navbar {
   margin-bottom: 0;
@@ -175,6 +186,9 @@ body {
     background-attachment: inherit;
   }
   .parallax2{
+    background-attachment: inherit;
+  }
+  .parallax3{
     background-attachment: inherit;
   }
 }
@@ -272,6 +286,44 @@ li{
   .h1 small {
   font-size: 24px;
   }
-
-  
-
+  .parallax3{
+    background-image: url("images/software-engineering.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+  }
+#computer{
+  background-image: url("images/computer-rep.png");
+  background-size: cover;
+  margin: 10px;
+}
+#web3{
+  background-image: url("images/webdesigning.png");
+  background-size: cover;
+  color: black;
+  margin: 10px;
+}
+#devices{
+  background-image: url("images/update.png");
+  background-size: cover;
+  color: inherit;
+  margin: 10px;
+}
+.white{
+  background-color: white;
+  background-size: cover;
+  width: 100%;
+  color: black;
+}
+.white-qr{
+  background-color: white;
+  background-size: cover;
+  color: black;
+}
+#center{
+  margin-top: 70px;
+}
