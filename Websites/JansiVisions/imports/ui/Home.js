@@ -1,5 +1,16 @@
 import React, {Component } from 'react';
 import Footer from './Footer.js';
+import {Tasks} from '../api/tasks.js';
+import {Template} from 'meteor/templating';
+
+Template.body.helpers({
+	tasks(){
+		return Tasks.find({});
+	},
+});
+
+if (Meteor.isClient){
+}
 
 class Home extends Component {
 
@@ -119,11 +130,16 @@ class Home extends Component {
 					<div class="col-md-6"></div>
 					<div class="col-md-6"><h3>Let us know what you think</h3>
 					<div class="row" id="magin">
+
+					<form class="new-task">
+						<input class="form-control curved" type="name" name="name" placeholder="Name" required/>
+
+					</form>
 			<div class="col-sm-6 form-group">
-				<input class="form-control curved" id="name" name="name" placeholder="Name" type="text" required/>
+<input class="form-control curved"  type="email" name="email" placeholder="Email" required/>
 			</div>
 			<div class="col-sm-6 form-group">
-				<input class="form-control curved" id="email" name="email" placeholder="Email" type="email" required/>
+
 			</div>
 		</div>
 		<div class="row">
