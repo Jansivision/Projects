@@ -8,11 +8,11 @@ import App from '../imports/ui/App.js';
 import {Template} from 'meteor/templating';
 import '../lib/collections/books.js'
 
-  Template.booklist.helpers({
-    books: function(){
-      return Books.find();
-    }
-  });
+  // Template.booklist.helpers({
+  //   books: function(){
+  //     return Books.find();
+  //   }
+  // });
 
   //Template.body.events({
     //'submit .new-task' (event) {

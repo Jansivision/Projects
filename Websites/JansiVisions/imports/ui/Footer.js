@@ -25,7 +25,7 @@ Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 	  
   <p><a href='/about'>- About</a></p>
   <p><a  href='/contact'>- Contact</a></p>
-  <p><a  href='/servies'>- Services</a></p>
+  <p><a  href='/services'>- Services</a></p>
       </div>
     </div>
   </div>

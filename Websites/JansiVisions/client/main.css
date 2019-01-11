@@ -4,6 +4,13 @@ body {
   text-align: center;
   color: white;
 }
+
+#notfound{
+  text-align: center;
+  color: #001a33;
+  background-color:#FFF ;
+}
+
 #blue{
   background-color: #001a33;
 }
@@ -15,7 +22,8 @@ body {
 #black{
   text-align: center;
   color: white;
-  background-color: black;
+  background-image: url("images/1.png");
+  background-size: cover;
 }
 #blueword{
   color: #001a33
