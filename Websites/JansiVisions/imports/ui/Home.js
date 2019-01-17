@@ -119,15 +119,18 @@ class Home extends Component {
 					<div class="col-md-6"></div>
 				</div>
 				<p>Best Services</p>
-				<h2>Services We Provide</h2>
-				<div class="row">
-					<div class="col-md-6" id="web"><div class="greyback curved"><h3>Web design</h3><p>We design and develop responsive websites for various purposes.</p><p>These include;</p><li>Personal Blogs</li><li>Advertisement</li><li>Marketing</li></div></div>
-					<div class="col-md-6" id="hardware"><div class="greyback curved"><h2>Software Repairs</h2><p>We provide a wide range of device repairs;</p><li> Computers</li><li> Smart phones</li><li>Tablet</li><p>Official and Custom updates for Android devices available</p></div></div>
+				
+				<div class="row"  id="hardware">
+					<div class="col-md-6" id="webs"><div class="greyback curved"> <h2>Services We Provide</h2><h3>Web design</h3>
+					<h2>Software Repairs</h2>
+					<p>We provide a wide range of device repairs;</p>
+					<a href="/services" class="btn btn-primary">Learn more....</a></div></div>
+					<div class="col-md-6" ><div class="greyback curved"></div></div>
 				</div>
-				<p id="magin">Feedback</p>
-				<h2>What our clients say</h2>
+				<h3 id="magin">Feedback</h3>
+				
 				<div class="row">
-					<div class="col-md-6"></div>
+					<div class="col-md-6"><h2>What our clients say</h2></div>
 					<div class="col-md-6"><h3>Let us know what you think</h3>
 					<div class="row" id="magin">
 
@@ -136,6 +139,7 @@ class Home extends Component {
 
 					</form>
 			<div class="col-sm-6 form-group">
+			<br/>
 <input class="form-control curved"  type="email" name="email" placeholder="Email" required/>
 			</div>
 			<div class="col-sm-6 form-group">
