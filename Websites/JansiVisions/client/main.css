@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color:white ;
+  background-color:azure ;
   text-align: center;
   color: #001a33;
 }
@@ -47,7 +47,7 @@ body {
   width: auto;
 }
 #green{
-  background-color:  #2A3B1E;
+  background-color:  #001a33;
   color: white;
   margin: 10px;
   width: auto;

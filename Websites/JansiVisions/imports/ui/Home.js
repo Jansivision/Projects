@@ -165,6 +165,7 @@ class Home extends Component {
 						<div class="row">
 	   <div class="col text-center">
 		<h2>ACTIVITIES</h2>
+		
 		</div>
 
 
@@ -176,6 +177,7 @@ class Home extends Component {
       <i class="fa fa-code fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
        <p class="count-text ">Visits</p>
+	   <h2>754</h2>
     </div>
 	        </div>
 
@@ -184,12 +186,14 @@ class Home extends Component {
       <i class="fa fa-lightbulb-o fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
       <p class="count-text ">Online</p>
+	  <h1>206</h1>
     </div></div>
 		<div class="col-sm-4">
               <div class="counter" id="green">
       <i class="fa fa-bug fa-2x"></i>
       <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
       <p class="count-text ">Feedback</p>
+	  <h2>804 comments</h2>
     </div>
               </div>
          </div>

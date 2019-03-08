@@ -12,10 +12,12 @@ class Footer extends Component{
 <div class="row">
     <div class="col-sm-5">
     <h2 >Jansi Visions</h2>
+    <h3>___________________________________</h3>
 				<h3>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-
-Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+				All empires begin with a VISION,
+        We bring the future to you, so go
+         ahead and be the mad ginues you were ment 
+         to be because we have your back all the way.
 				</h3>
     </div>
     <div class="col-sm-7 slideanim">
@@ -62,8 +64,8 @@ Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
     </ul>
 <div id="br"> </div>
 <hr/>
-    <div class="footer-copyright text-center py-3"> <h2>© 2018 Copyright:
-      <a href="/">jansivisions</a></h2>
+    <div class="footer-copyright text-center py-3"> <h3>© 2019 Copyright:
+      <a href="/">jansivisions</a></h3>
     </div>
 
 
